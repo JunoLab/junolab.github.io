@@ -9,8 +9,6 @@ body {
   color: #5a5a5a;
 }
 
-
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -112,6 +110,11 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+.featurette img {
+  border-radius: 5px;
+   box-shadow: 0 20px 100px rgba(0,0,0,0.2);
 }
 
 
