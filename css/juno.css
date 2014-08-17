@@ -75,8 +75,7 @@ body {
 -------------------------------------------------- */
 
 .marketing .tagline {
-  width: 70%;
-  min-width: 200px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
