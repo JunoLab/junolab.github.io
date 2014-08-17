@@ -63,6 +63,13 @@ body {
   height: 500px;
 }
 
+/* Juno Logo */
+.carousel .item.logo {
+  background: url("{{site.url}}/images/juno_canvas.png");
+  background-size: cover;
+  background-position: center;
+}
+
 
 
 /* MARKETING CONTENT
