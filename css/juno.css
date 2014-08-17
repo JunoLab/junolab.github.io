@@ -82,6 +82,22 @@ body {
 }
 
 .marketing .tagline h1 {
+  color: black;
+}
+
+.marketing .tagline h2 {
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.marketing .tagline h1 a, .marketing .tagline h2 a {
+  color: inherit;
+  border-bottom: 1px solid #999;
+}
+
+.marketing .tagline h1 a:hover, .marketing .tagline h2 a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #999;
 }
 
 /* Featurettes
