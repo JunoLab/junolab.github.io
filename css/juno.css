@@ -62,7 +62,7 @@ body {
 
 /* Juno Logo */
 .carousel .item.logo {
-  background: url("{{site.url}}/images/juno_canvas.png");
+  background: url("{{site.url}}/images/juno_canvas.jpg");
   background-size: cover;
   background-position: center;
 }
