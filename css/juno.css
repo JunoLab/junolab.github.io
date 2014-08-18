@@ -29,6 +29,8 @@ body {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
 }
 .navbar-wrapper .navbar .container {
   width: auto;
