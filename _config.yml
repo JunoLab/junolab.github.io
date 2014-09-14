@@ -1,0 +1,9 @@
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Dropdown
+    children:
+      - text: Foo
+        url: /foo/
