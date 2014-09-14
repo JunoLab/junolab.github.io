@@ -5,7 +5,7 @@ navigation:
     url: /about/
   - text: Features
     url: /features/
-  - text: Community
-    url: /community/
   - text: Docs
     url: /docs/
+  - text: Community
+    url: /community/
