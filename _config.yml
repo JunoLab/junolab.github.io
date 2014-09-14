@@ -3,7 +3,9 @@ navigation:
     url: /
   - text: About
     url: /about/
-  - text: Dropdown
-    children:
-      - text: Foo
-        url: /foo/
+  - text: Features
+    url: /features/
+  - text: Community
+    url: /community/
+  - text: Docs
+    url: /docs/
