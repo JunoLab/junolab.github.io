@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 ---
 `C` = `Ctrl` (Windows, Linux), `Cmd` (Mac)
 

@@ -1,3 +1,24 @@
+docs:
+  - text: Installing & Upgrading
+    link: installing.html
+    children:
+      - text: Offline / Behind a Firewall
+        link: offline.html
+  - text: Evaluation & Display
+    link: evaluation.html
+  - text: Developing Modules and Packages
+    link: modules.html
+  - text: Keyboard Shortcuts & Help
+    link: shortcuts.html
+  - text: Connecting to the Terminal and IJulia
+    link: terminal.html
+  - text: Settings & Configuration
+    link: settings.html
+  - text: Other Notes
+    link: notes.html
+  - text: Community & Help
+    link: /community/
+
 navigation:
   - text: Home
     url: /

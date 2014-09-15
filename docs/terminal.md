@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 ---
 Connecting Light Table to the terminal or IJulia is straightforward. As usual, execute commands in Light Table by pressing `Crtl+Space`, typing the command's name and pressing `Enter` once it becomes selected.
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 ---
 Everything in Julia is an expression with a value. For example, `2+2` is an expression with the value `4`. `plot(sin, 0, 25)` is also an expression with a value – a plot of the sin function.
 
@@ -11,6 +11,6 @@ Sometimes you'll want to remove these inline results to clear clutter – you c
 
 Expressions like `println("foo")` are different – this has a value of `nothing`, represented in Juno as a small tick. Of course, it's still useful because it has the side effect of printing. If you evaluated that `println` call you'll notice a little number indicator in the bottom right corner; click on it to open the console. All calls to functions such as `println`, `show` and `display` will appear here.
 
-You can toggle the console by right clicking on it, going to View->Console, or executing "toggle console". You can also get a better view of it by right clicking on it and clicking "open console tab" or executing the same command – see [[Other Notes]] for more info on tabs.
+You can toggle the console by right clicking on it, *or* going to View->Console, *or* executing "toggle console". You can also get a better view of it by right clicking on it and clicking "open console tab" or executing the same command – see [Other Notes](notes.md) for more info on tabs.
 
 Quarantining side effects in this way might seem odd, especially if you're used to environments like IJulia. However, being able to have a backlog of results without cluttering your work in itself is enormously useful, and better suits the kind of development Juno is designed for. (You'll appreciate it when your code containing a `println` goes horribly wrong.)

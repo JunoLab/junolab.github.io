@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 ---
 Light Table needs a writable directory to store plugins and configuration. By default, this is one of:
 

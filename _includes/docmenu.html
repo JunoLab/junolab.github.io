@@ -1,0 +1,18 @@
+<ul>
+{% assign url = page.url | remove: "/docs/"%}
+{% for link in site.docs %}
+  <li><a href="{{link.link}}" class="{% if url == link.link %}active{% endif %}">
+    {{link.text}}
+    </a>
+    {% if link.children %}
+    <ul>
+      {% for link in link.children %}
+      <li><a href="{{link.link}}" class="{% if url == link.link %}active{% endif %}">
+        {{link.text}}
+      </a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

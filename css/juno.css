@@ -9,6 +9,10 @@ body {
   color: #5a5a5a;
 }
 
+a.active {
+  font-weight: bold;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 

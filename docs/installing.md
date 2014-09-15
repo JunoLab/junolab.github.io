@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docs
 ---
 ## Getting Light Table
 

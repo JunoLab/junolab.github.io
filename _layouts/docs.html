@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+{% include docmenu.html %}
+
+<hr>
+
+{% assign url = page.url | remove: "/docs/"%}
+{% for link in site.docs %}
+  {% if url == link.link %}
+  <h1>{{link.text}}</h1>
+  {% endif %}
+
+  {% for link in link.children %}
+    {% if url == link.link %}
+    <h1>{{link.text}}</h1>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{{content}}
