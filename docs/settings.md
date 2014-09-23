@@ -5,10 +5,14 @@ layout: docs
 
 You can set the theme simply by changing the string in the `set-theme` behavior (use the "user behaviors" command to open your config file). June and June Night are the officially supported light and dark themes respectively, but I've tried to make sure that Juno plays well with others – simply start typing to get a list of available themes.
 
-Note that, for now, if you want Gadfly to look right you'll need to use the light theme.
-
 {% highlight clojure %}
 (:lt.objs.style/set-theme "june")
+{% endhighlight %}
+
+If you use a dark theme, you'll also need to add `:lt.objs.langs.julia/dark-theme` to the `:app` tag so that things display correctly – e.g.
+
+{% highlight clojure %}
+    :app [:lt.objs.langs.julia/dark-theme]
 {% endhighlight %}
 
 ### Changing tab settings

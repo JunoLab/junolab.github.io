@@ -21,8 +21,6 @@ Task (queued) @0x00007fa46fb1ae80
 julia>
 {% endhighlight %}
 
-From now on evaluating code in Light Table will have the same effect as evaluating in the REPL itself – in particular, print statements will go to the terminal and `readline()` will wait for input from the terminal rather than hanging.
+You can use this to develop packages using the autocompletion and module support available in Juno, while still using the REPL for throwaway input.
 
-This is also useful if you prefer the REPL for interactive development – even if you only use Juno for editing, it's useful to connect it to the repl for live autocompletion.
-
-NOTE: With the new (v0.3) REPL `readline()` functionality will no longer work from LT. If you need to read STDIN you can disable the REPL by removing the `@async` part of the connection code.
+You can also use this if you need to read input – leave off the `@aync` above, and all input to the terminal will be readable from Julia's `STDIN`.

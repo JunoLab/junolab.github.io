@@ -1,7 +1,7 @@
 ---
 layout: docs
 ---
-When you open a new Julia file with `C-N` you'll notice, in the bottom-right corner, a little indicator which reads `Main`. This is the current module you're working with which is `Main` by default just as in the REPL.
+When you open a new Julia file with `C-N` you'll notice, in the bottom-right corner, a little indicator which reads `Main`. This is the current module you're working with which is `Main` by default just as in the REPL. You can click the module indicator to choose a module to work in.
 
 Try this: Type `using Distributions`, evaluate it, then type `sample` and press `Ctrl-M`. (If you don't have Distributions, any other package/function will do).
 
