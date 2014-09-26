@@ -18,6 +18,7 @@ The following commands should be run in Light Table. To execute commands, hit `C
 
 * Install the plugin with Light Table's plugin manager ("show plugin manager" command, search for "Juno").
 * Execute the "user behaviors" command and in the config file that appears, change "default" to "june".
+  * (you can [change this later](settings.html), but it's good to get it working first)
 * Either make sure `julia` is on your path or see "Setting the Julia path" below.
 * Now restart LT. You should see a working indicator as the Julia client boots up – this may take a while the first time. Use the "toggle console" command to see output.
 * Open a `.jl` file (or press `Ctrl-N` for a new one), type something, `Ctrl-Enter` to evaluate the line (`Cmd-N`/`Cmd-Enter` on OS X).
