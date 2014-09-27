@@ -1,7 +1,7 @@
 ---
 layout: docs
 ---
-Everything in Julia is an expression with a value. For example, `2+2` is an expression with the value `4`. `plot(sin, 0, 25)` is also an expression with a value – a plot of the sin function.
+Everything in Julia is an expression with a value. For example, `2+2` is an expression with the value `4`. With a package like [Gadfly](http://github.com/dcjones/Gadfly.jl) installed, `plot(sin, 0, 25)` is also an expression with a value – a plot of the sin function.
 
 Juno's basic job is to transform expressions into values, which it does when you press `C-Enter`. Unlike tools like RStudio, this is not done one line at a time – if you press `C-Enter` with the cursor inside a block of code, Juno will evaluate the whole block and immediately display the result. You will not usually need to select code to evaluate it.
 
