@@ -11,6 +11,6 @@ Sometimes you'll want to remove these inline results to clear clutter – you c
 
 Expressions like `println("foo")` are different – this has a value of `nothing`, represented in Juno as a small tick. Of course, it's still useful because it has the side effect of printing. If you evaluated that `println` call you'll notice a little number indicator in the bottom right corner; click on it to open the console. All calls to functions such as `println`, `show` and `display` will appear here.
 
-You can toggle the console by going to View→Console (or by executing "toggle console"). You can also get a better view of it by right clicking on it and clicking "open console tab" or executing the same command – see [Other Notes](notes.md) for more info on tabs.
+You can toggle the console by going to View→Console (or by executing "toggle console"). You can also get a better view of it by right clicking on it and clicking "open console tab" or executing the same command – see [Other Notes](notes.html) for more info on tabs.
 
 Quarantining side effects in this way might seem odd, especially if you're used to environments like IJulia. However, being able to have a backlog of results without cluttering your work in itself is enormously useful, and better suits the kind of development Juno is designed for. (You'll appreciate it when your code containing a `println` goes horribly wrong.)
