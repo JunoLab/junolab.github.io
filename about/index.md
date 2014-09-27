@@ -22,3 +22,8 @@ Contributors
 * [JobJob](http://github.com/JobJob)
 
 And, of course, the many great hackers in the Julia and Light Table communities who made this possible.
+
+License
+-------
+
+All Juno-related Light Table plugins (listed above) are GPL licensed; the Julia code is MIT.
