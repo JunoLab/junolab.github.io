@@ -33,7 +33,7 @@ You can safely upgrade patch releases of either the package or plugin independen
 
 ## Setting the Julia path
 
-Unfortunately this is a little tricky at the moment. In the config file you opened with "user behaviors" you need to add `(:lt.objs.langs.julia/julia-path "/path/to/julia")` inside the square brackets after `:app` – see [Settings & Configuration](settings.html) for more information and [here](https://gist.github.com/one-more-minute/9882389) for an example config file.
+In the config file you opened with "user behaviors" you need to add `[:app :lt.objs.langs.julia/julia-path "/path/to/julia"]` – see [Settings & Configuration](settings.html) for more information and [here](https://gist.github.com/one-more-minute/9882389) for an example config file.
 
 If it looks like Light Table can't find Julia, open an issue (copy your user.behaviors file) and I'll see what I can do.
 
