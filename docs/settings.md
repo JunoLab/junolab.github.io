@@ -1,6 +1,9 @@
 ---
 layout: docs
 ---
+
+**Note:** As of Light Table 0.7.0 this information is largely out of date. I'll update as soon as I can.
+
 ### Setting the theme
 
 You can set the theme simply by changing the string in the `set-theme` behavior (use the "user behaviors" command to open your config file). June and June Night are the officially supported light and dark themes respectively, but I've tried to make sure that Juno plays well with others – simply start typing to get a list of available themes.
