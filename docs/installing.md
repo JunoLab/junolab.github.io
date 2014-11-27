@@ -17,7 +17,7 @@ Oh, and make sure to install [Julia](http://julialang.org) if you don't have it 
 The following commands should be run in Light Table. To execute commands, hit `Ctrl+Space` then type the command's name (you'll be selecting from search results).
 
 * Install the plugin with Light Table's plugin manager ("show plugin manager" command, search for "Juno").
-* Execute the "user behaviors" command and in the config file that appears, change "default" to "june".
+* Execute the "Settings: User behaviors" command and in the config file that appears, change "default" to "june".
   * (you can [change this later](settings.html), but it's good to get it working first)
 * Either make sure `julia` is on your path or see "Setting the Julia path" below.
 * Now restart LT. You should see a working indicator as the Julia client boots up – this may take a while the first time. Use the "toggle console" command to see output.
@@ -35,5 +35,10 @@ You can safely upgrade patch releases of either the package or plugin independen
 
 In the config file you opened with "user behaviors" you need to add `[:app :lt.objs.langs.julia/julia-path "/path/to/julia"]` – see [Settings & Configuration](settings.html) for more information and [here](https://gist.github.com/one-more-minute/9882389) for an example config file.
 
-If it looks like Light Table can't find Julia, open an issue (copy your user.behaviors file) and I'll see what I can do.
+Note that this should be the path to the Julia executable, not to a folder. For example:
 
+* On OSX: `"/Applications/Julia-0.3.3.app/Contents/Resources/julia/bin/julia"`
+* On Windows: `"C:\\Users\\Mike\\Julia 0.3.3\\bin\\julia.exe"`
+* On Linux: `"julia"`
+
+If it looks like Light Table can't find Julia, open an issue (copy your user.behaviors file) and I'll see what I can do.
