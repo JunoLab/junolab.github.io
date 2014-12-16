@@ -14,7 +14,8 @@ June and June Night are the officially supported light and dark themes respectiv
 [:editor :lt.objs.style/set-theme "june-night"]
 {% endhighlight %}
 
-If you use a dark theme, you'll also need to add `[:app :lt.objs.langs.julia/dark-theme]` so that matrices and tables display correctly.
+Note that you'll also need to add one of `[:app :lt.objs.langs.julia/light-theme]`
+or `[:app :lt.objs.langs.julia/dark-theme]` so that matrices and tables display correctly.
 
 ### Changing tab settings
 
