@@ -30,3 +30,5 @@ navigation:
     url: /docs/
   - text: Community
     url: /community/
+  - text: Discuss
+    url: http://discuss.junolab.org/
