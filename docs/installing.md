@@ -2,6 +2,12 @@
 layout: docs
 ---
 
+**Note:** We have some [new bundles](http://discuss.junolab.org/t/new-juno-julia-bundles/13) which don't require any setup, just download
+and run. However, these are very much in beta; if you try them out please let
+me know how it went.
+
+---
+
 To start with, you'll want to grab [Light Table](http://www.lighttable.com), the platform that powers Juno. Once we've done that we just need to get the plugin within Light Table and make sure that it can find Julia.
 
 Oh, and make sure to install [Julia](http://julialang.org) if you don't have it already – see [here](http://julialang.org/downloads/) for more info. Please note that Juno currently only supports the latest release, v0.3.
