@@ -3,19 +3,21 @@ layout: docs
 ---
 Connecting Light Table to the terminal or IJulia is straightforward. As usual, execute commands in Light Table by pressing `Crtl+Space`, typing the command's name and pressing `Enter` once it becomes selected.
 
-* Execute `Show connect bar`
-* Disconnect the current Julia client, if there is one, by pressing the "Disconnect" button
-* Click `Add Connection`
-* Click `Julia (manual)`
-* Copy the line of code which pops up
-* In the Julia REPL or IJulia, execute `using Jewel` followed by the copied line of code.
+To spawn a new REPL client:
+
+* Disconnect any existing client by executing the "disconnect clients" command
+* Execute the "spawn a terminal" command.
+
+To connect to a running REPL:
+
+* Disconnect any existing client by executing the "disconnect clients" command
+* Execute the "connect to a running session" command
+* In the Julia REPL or IJulia, execute the given line of code.
 
 This will look something like:
 
 {% highlight julia %}
-julia> using Jewel
-
-julia> @async Jewel.server(64546, 1266)
+julia> using Jewel; @async Jewel.server(64546, 1266)
 Task (queued) @0x00007fa46fb1ae80
 
 julia>
