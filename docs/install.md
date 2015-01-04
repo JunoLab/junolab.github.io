@@ -22,12 +22,10 @@ Double click the downloaded dmg file to open it, then drag the `Juno` app to you
 
 First install Julia with
 
-```
-sudo add-apt-repository ppa:staticfloat/juliareleases
-sudo add-apt-repository ppa:staticfloat/julia-deps
-sudo apt-get update
-sudo apt-get install julia
-```
+    sudo add-apt-repository ppa:staticfloat/juliareleases
+    sudo add-apt-repository ppa:staticfloat/julia-deps
+    sudo apt-get update
+    sudo apt-get install julia
 
 Then download the bundle and run the `Juno` executable.
 
