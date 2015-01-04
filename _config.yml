@@ -1,7 +1,9 @@
 docs:
   - text: Installing & Upgrading
-    link: installing.html
+    link: install.html
     children:
+      - text: Installing from Light Table
+        link: install-manual.html
       - text: Offline / Behind a Firewall
         link: offline.html
       - text: Troubleshooting

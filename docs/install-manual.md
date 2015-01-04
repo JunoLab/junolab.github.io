@@ -2,11 +2,7 @@
 layout: docs
 ---
 
-**Note:** We have some [new bundles](http://discuss.junolab.org/t/new-juno-julia-bundles/13) which don't require any setup, just download
-and run. However, these are very much in beta; if you try them out please let
-me know how it went.
-
----
+This guide is for those who want to install Juno starting from an existing Light Table installation.
 
 To start with, you'll want to grab [Light Table](http://www.lighttable.com), the platform that powers Juno. Once we've done that we just need to get the plugin within Light Table and make sure that it can find Julia.
 
@@ -30,12 +26,6 @@ The following commands should be run in Light Table. To execute commands, hit `C
 * Open a `.jl` file (or press `Ctrl-N` for a new one), type something, `Ctrl-Enter` to evaluate the line (`Cmd-N`/`Cmd-Enter` on OS X).
 
 See [troubleshooting](troubleshooting.html) if you have problems.
-
-## Upgrading
-
-When an update is available, first `Pkg.update()` in Julia, then use the "update all outdated" command in Light Table. On Windows you **must** disconnect Julia before updating – use "show connect bar" and click "disconnect".
-
-You can safely upgrade patch releases of either the package or plugin independently, but you'll still need to close Julia before updating the plugin on Windows.
 
 ## Setting the Julia path
 
