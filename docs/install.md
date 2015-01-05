@@ -2,6 +2,8 @@
 layout: docs
 ---
 
+**Note:** If you have an existing Julia installation, make sure to run `Pkg.update()` before running Juno.
+
 ## Windows Vista/7/8
 
 * [Download 64-bit bundle](https://junolab.s3.amazonaws.com/release/1.0.0/juno-windows-x64.zip)
