@@ -11,7 +11,7 @@ layout: docs
 
 Download the bundle for your platform (if you're not sure, 64-bit should be fine) and extract it to a convenient place (your desktop is fine). Then just click to run `Juno.exe`.
 
-## Mac OS X
+## Mac OS X (10.8+)
 
 * [Download bundle](https://junolab.s3.amazonaws.com/release/1.0.1/juno-mac-x64.dmg)
 
