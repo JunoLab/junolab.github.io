@@ -14,10 +14,10 @@ function sample!(a::AbstractArray, x::AbstractArray; replace::Bool=true, ordered
     n = length(a)
     # ...
 {% endhighlight %}
-Now go back to your original file and evaluate
+Now **evaluate the altered module code** using `Ctrl-Enter`, then go back to your original file and evaluate
 {% highlight julia %}
 sample([1,2,3], 5)
 {% endhighlight %}
 This now throws an error. You can also click the link in the error to be taken back to the StatsBase code which threw it. The offending line will be highlighted red – you probably want to delete it.
 
-This is Juno's key feature, since it allows you to build up modules and packages gradually and interactively. Of course, it will work just as well for any packages you create yourself – Juno will figure out which module you want whenever you open a file.
+This is Juno's key feature, since it allows you to build up modules and packages gradually and interactively. Of course, it will work just as well for any packages you create yourself – Juno will figure out which module you want whenever you open a file. As long as you remember to use `Ctrl-Enter` to evaluate any code you change in the module, you won't have to reload the entire module to test or use the changes.
