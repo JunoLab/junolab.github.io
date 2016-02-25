@@ -26,10 +26,6 @@ docs:
 navigation:
   - text: Home
     url: /
-  - text: About
-    url: /about/
-  - text: Docs
-    url: /docs/
   - text: Community
     url: /community/
   - text: Discuss
