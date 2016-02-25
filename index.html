@@ -6,9 +6,13 @@ layout: common
   {% include navbar.html %}
 </div>
 
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
+<div class="header">
+  <img src="{{site.url}}/images/logo.png" />
+  <span class="tagline">
+    <div class="main">A flexible IDE</div>
+    <div class="sub">for the 21st century</div>
+  </span>
+</div>
 
 <div class="container marketing">
 
@@ -27,8 +31,11 @@ layout: common
     </a>
   </div>
 
+</div>
 
-  <!-- START THE FEATURETTES -->
+<img class="screenshot" src="{{site.url}}/images/screenshot.png"/>
+
+<div class="container marketing">
 
   <hr class="featurette-divider">
 
@@ -76,7 +83,7 @@ layout: common
         <span class="text-muted"></span>
       </h2>
       <p class="lead">
-        Juno is built on Atom, which means it's a powerful
+        Juno is built on <a href="http://atom.io">Atom</a>, which means it's a powerful
         editor as well as a pretty face. It's customisable to your heart's
         content (though the defaults are pretty good too) and has power features
         like multiple cursors, fuzzy file finding and Vim keybindings.
@@ -88,7 +95,5 @@ layout: common
   </div>
 
   {% include footer.html %}
-
-  <!-- /END THE FEATURETTES -->
 
 </div>
