@@ -28,5 +28,9 @@ navigation:
     url: /
   - text: Community
     url: /community/
+  - text: Source
+    url: https://github.com/JunoLab
   - text: Discuss
-    url: http://discuss.junolab.org/
+    url: http://discuss.junolab.org
+  - text: Julia
+    url: http://julialang.org
