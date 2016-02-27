@@ -10,7 +10,7 @@ There are various outlets to talk to other people about Juno, and get help when 
   questions, support and discussion. You'll get help fastest here.
 * [GitHub](https://github.com/JunoLab/) – Source code!
 * [Reddit](http://www.reddit.com/r/juno) – for Juno-related news
-* [Gitter Chat](https://gitter.im/one-more-minute/Julia-LT) – For development discussion
+* [Gitter Chat](https://gitter.im/JunoLab/Juno) – For development discussion
 * [Julia Users Mailing List](https://groups.google.com/forum/?fromgroups=#!forum/julia-users) – questions about Juno and Julia in general are welcome here
 
 What's the Julia Community up to?
