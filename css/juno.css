@@ -47,14 +47,10 @@ a.active {
   }
 }
 
-.screenshot-container {
-  height: 100%;
-  text-align: center;
-}
-
 .screenshot {
-  max-width: 100%;
+  width: 100%;
   max-height: 100%;
+  object-fit: contain;
   margin-top: 30px;
 }
 
