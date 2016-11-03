@@ -32,5 +32,7 @@ navigation:
     url: https://github.com/JunoLab
   - text: Discuss
     url: http://discuss.junolab.org
+  - text: Documentation
+    url: http://docs.junolab.org/latest/
   - text: Julia
     url: http://julialang.org
