@@ -6,7 +6,7 @@ Juno Community
 
 There are various outlets to talk to other people about Juno, and get help when you need it:
 
-* [discuss.Juno](http://discuss.junolab.org) – the official community hub for
+* [discuss.Juno](http://discourse.junolab.org/) – the official community hub for
   questions, support and discussion. You'll get help fastest here.
 * [GitHub](https://github.com/JunoLab/) – Source code!
 * [Reddit](http://www.reddit.com/r/juno) – for Juno-related news
