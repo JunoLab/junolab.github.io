@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pfitzseb.github.io/about/about/</loc>
+    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pfitzseb.github.io/post/first/</loc>
     <lastmod>2015-07-18T14:08:29+02:00</lastmod>
   </url>
@@ -15,6 +20,12 @@
   <url>
     <loc>https://pfitzseb.github.io/post/third/</loc>
     <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pfitzseb.github.io/about/</loc>
+    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
