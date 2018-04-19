@@ -77,21 +77,24 @@
 	<div class="intro-header">
         <div class="screenselector container">
             <div class="screenshot">
-                <img src="../img/intro-bg.jpg" alt="">
+                <img id="screeny" src="../img/screeny-main.png" alt="">
             </div>
 
             <ul class="list-inline buttons">
                 <div class="btn btn-default btn-lg">
-                    <a href="#">Debugger</a>
+                    <a href="#" onclick="changeImage('../img/screeny-main.png')">Main</a>
                 </div>
                 <div class="btn btn-default btn-lg">
-                    <a href="#">Documentation</a>
+                    <a href="#" onclick="changeImage('../img/screeny-debugger.png')">Debugger</a>
                 </div>
                 <div class="btn btn-default btn-lg">
-                    <a href="#">Profiler</a>
+                    <a href="#" onclick="changeImage('../img/screeny-docs.png')">Documentation</a>
                 </div>
                 <div class="btn btn-default btn-lg">
-                    <a href="#">Terminal</a>
+                    <a href="#" onclick="changeImage('../img/screeny-profiler.png')">Profiler</a>
+                </div>
+                <div class="btn btn-default btn-lg">
+                    <a href="#" onclick="changeImage('../img/screeny-terminal.png')">Terminal</a>
                 </div>
             </ul>
         </div>

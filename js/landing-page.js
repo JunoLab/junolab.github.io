@@ -29,3 +29,7 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+function changeImage(uri) {
+    document.getElementById("screeny").src = uri;
+}
