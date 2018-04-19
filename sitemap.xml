@@ -3,39 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/post/first/</loc>
+    <loc>https://pfitzseb.github.io/post/first/</loc>
     <lastmod>2015-07-18T14:08:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/second/</loc>
+    <loc>https://pfitzseb.github.io/post/second/</loc>
     <lastmod>2015-07-18T14:08:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/third/</loc>
+    <loc>https://pfitzseb.github.io/post/third/</loc>
     <lastmod>2015-07-18T14:08:29+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://pfitzseb.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://pfitzseb.github.io/</loc>
     <lastmod>2015-07-18T14:08:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://pfitzseb.github.io/post/</loc>
+    <lastmod>2015-07-18T14:08:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pfitzseb.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
