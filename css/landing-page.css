@@ -46,7 +46,6 @@ h6 {
 
 .logo {
     max-height: 8em;
-    /* float: right; */
     margin-left:auto;
     margin-right:0;
 }
@@ -106,7 +105,7 @@ h6 {
 }
 
 .intro-message h3 {
-    margin-top: 0.5em;
+    margin-top: 1em;
     text-align: left;
     /* text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
 }
