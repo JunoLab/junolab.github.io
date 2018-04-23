@@ -52,6 +52,14 @@ var items = {
             }
         },
         {
+            title: "Inline Results",
+            description: "Interactive inline results allow for notebook-like evaluation.",
+            position: {
+                left: 30,
+                top: 27.5
+            }
+        },
+        {
             title: "Integrated REPL",
             description: "Seamless integration of the Julia REPL.",
             position: {
@@ -66,6 +74,14 @@ var items = {
             position: {
                 left: 78,
                 top: 52
+            }
+        },
+        {
+            title: "Progress Indicator",
+            description: "Fully customizable progress bar.",
+            position: {
+                left: 3,
+                top: 96
             }
         },
     ],
@@ -176,12 +192,4 @@ function changeImage(uri, id) {
     screeny.src = uri;
 
     $('#image-overlay-container').interactiveImage(items[id], options)
-}
-
-function blurScreenselector() {
-    document.getElementById('screenselector').classList.add('blurred')
-}
-
-function unblurScreenselector() {
-    document.getElementById('screenselector').classList.remove('blurred')
 }
