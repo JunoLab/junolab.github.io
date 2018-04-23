@@ -157,14 +157,13 @@ var items = {
 var options = {
       fontColor: "#333333",
       backgroundColor: "#FFFFFF",
-      debug: true
+      debug: false
   };
 
 // Activate the plugin
 $(document).ready(function () {
     $('.interactive-image').interactiveImage(items['main'], options)
     let ss = document.getElementById('screenselector')
-    console.log(ss);
     document.getElementById('screenselector').addEventListener('mouseenter', function () {
         unblurScreenselector()
     })
@@ -174,17 +173,16 @@ $(document).ready(function () {
 });
 
 function changeImage(uri, id) {
-    $('.interactive-image').remove()
+    $('#image-overlay-container').remove()
     let img = document.createElement('div')
-    img.classList.add('screenshot')
+    img.id = 'image-overlay-container'
     img.classList.add('interactive-image')
-    img.setAttribute('data-img', id)
-    let screeny = document.createElement('img')
-    screeny.id = 'screeny'
+    document.getElementById('screeny').parentElement.appendChild(img)
+
+    let screeny = document.getElementById('screeny')
     screeny.src = uri;
-    img.appendChild(screeny)
-    document.getElementById('screenselector').appendChild(img)
-    $('.interactive-image').interactiveImage(items[id], options)
+
+    $('#image-overlay-container').interactiveImage(items[id], options)
 }
 
 function blurScreenselector() {
