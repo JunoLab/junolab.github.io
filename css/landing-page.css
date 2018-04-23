@@ -27,31 +27,21 @@ h6 {
 }
 
 #screenselector {
-    margin-top: 15px;
     position: relative;
     width: 75%;
-    transition: filter 0.2s;
-    z-index: 100;
-    filter: none;
-}
-
-#screenselector.blurred {
-    filter: blur(5px);
-    z-index: 1;
-}
-
-
-#screenselector.blurred .buttons {
-    opacity: 0;
 }
 
 #screenselector .buttons {
+    opacity: 0;
+}
+
+#screenselector:hover .buttons {
     transition: opacity 0.2s;
     opacity: 1;
 }
 
 .buttons {
-    margin: 0;
+    /* margin: 0; */
 }
 
 #image-overlay-container {
@@ -89,14 +79,13 @@ h6 {
 }
 
 .intro-message {
+    color: #333;
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
 }
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /* text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
     font-size: 5em;
 }
 
@@ -104,15 +93,17 @@ h6 {
     width: 300px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 0.5em;
+    margin-bottom: 0;
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /* text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
 }
 
 @media(max-width:767px) {
     .intro-message {
-        padding-bottom: 15%;
+        /* padding-bottom: 15%; */
     }
 
     .intro-message > h1 {

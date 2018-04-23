@@ -75,42 +75,39 @@
 
 <section id="intro">
 	<div class="intro-header">
-        <div class="container blurred" id="screenselector">
+        <div class="container">
+            <div class="intro-message">
+                <h1>Juno</h1>
+                
+                <h3>A flexible IDE for the 21st century</h3>
+            </div>
+        </div>
+        <div class="container" id="screenselector">
+            <ul class="list-inline buttons">
+                <div class="btn btn-default btn-sm" onclick="changeImage('../img/screeny-main.png', 'main')">
+                    Main
+                </div>
+                <div class="btn btn-default btn-sm" onclick="changeImage('../img/screeny-debugger.png', 'debugger')">
+                    Debugger Integration
+                </div>
+                <div class="btn btn-default btn-sm" onclick="changeImage('../img/screeny-docs.png', 'docs')">
+                    Documentation Panel
+                </div>
+                <div class="btn btn-default btn-sm" onclick="changeImage('../img/screeny-profiler.png', 'profiler')">
+                    Profiler
+                </div>
+                <div class="btn btn-default btn-sm" onclick="changeImage('../img/screeny-terminal.png', 'terminal')">
+                    Terminal
+                </div>
+            </ul>
             <div class="screenshot" data-img="main">
                 <img id="screeny" src="../img/screeny-main.png" alt="">
                 <div class="interactive-image" id="image-overlay-container"></div>
             </div>
-            <ul class="list-inline buttons">
-                <div class="btn btn-default" onclick="changeImage('../img/screeny-main.png', 'main')">
-                    Main
-                </div>
-                <div class="btn btn-default" onclick="changeImage('../img/screeny-debugger.png', 'debugger')">
-                    Debugger Integration
-                </div>
-                <div class="btn btn-default" onclick="changeImage('../img/screeny-docs.png', 'docs')">
-                    Documentation Panel
-                </div>
-                <div class="btn btn-default" onclick="changeImage('../img/screeny-profiler.png', 'profiler')">
-                    Profiler
-                </div>
-                <div class="btn btn-default" onclick="changeImage('../img/screeny-terminal.png', 'terminal')">
-                    Terminal
-                </div>
-            </ul>
         </div>
 
 
-	    <div class="overlay container">
-    		<div class="row">
-    		    <div class="col-lg-12">
-    			<div class="intro-message">
-    			    <h1>Juno</h1>
-                    <hr class="intro-divider">
-    			    <h3>A flexible IDE for the 21st century</h3>
-    			</div>
-    		    </div>
-    		</div>
-	    </div>
+	    
 
 
 	</div>

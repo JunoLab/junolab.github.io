@@ -163,15 +163,6 @@ var options = {
 // Activate the plugin
 $(document).ready(function () {
     $('.interactive-image').interactiveImage(items['main'], options)
-    setTimeout(function () {
-        let ss = document.getElementById('screenselector')
-        document.getElementById('screenselector').addEventListener('mouseenter', function () {
-            unblurScreenselector()
-        })
-        document.getElementById('screenselector').addEventListener('mouseleave', function () {
-            blurScreenselector()
-        })
-    }, 100)
 });
 
 function changeImage(uri, id) {
