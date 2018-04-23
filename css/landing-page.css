@@ -26,6 +26,10 @@ h6 {
     font-weight: 400;
 }
 
+.logo {
+    height: 8.5em;
+}
+
 #screenselector {
     position: relative;
     width: 75%;
@@ -81,6 +85,8 @@ h6 {
 .intro-message {
     color: #333;
     position: relative;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .intro-message > h1 {
@@ -97,8 +103,15 @@ h6 {
     margin-bottom: 0;
 }
 
-.intro-message > h3 {
+.intro-message h3 {
+    margin-top: 1.1em;
+    display: block;
+    text-align: left;
     /* text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
+}
+
+.intro-message h3 > span {
+    font-size: 1.5em;
 }
 
 @media(max-width:767px) {
