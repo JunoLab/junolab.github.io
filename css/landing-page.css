@@ -50,6 +50,10 @@ h6 {
     opacity: 1;
 }
 
+.buttons {
+    margin: 0;
+}
+
 #image-overlay-container {
     width: 100%;
     height: 100%;
@@ -60,17 +64,17 @@ h6 {
 
 .screenshot {
     position: relative;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .screenshot img {
-    width: 95%;
+    width: 100%;
 }
 
 .overlay {
     position: absolute;
     width: 100%;
-    top: 50px;
+    top: 5px;
     pointer-events: none;
     z-index: 1;
 }
