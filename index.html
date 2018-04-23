@@ -19,17 +19,17 @@
 
     
     <link rel="stylesheet" href="/css/pricing.css">
+
     
     
+
     
+    <link rel="stylesheet" href="/lib/interactive-image.min.css">
 
     
     <link href="/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    
-    
-    
 
 </head>
 <body>
@@ -75,28 +75,27 @@
 
 <section id="intro">
 	<div class="intro-header">
-        <div class="screenselector container">
-            <div class="screenshot">
-                <img id="screeny" src="../img/screeny-main.png" alt="">
-            </div>
-
+        <div class="container blurred" id="screenselector">
             <ul class="list-inline buttons">
-                <div class="btn btn-default btn-lg" onclick="changeImage('../img/screeny-main.png')">
+                <div class="btn btn-default" onclick="changeImage('../img/screeny-main.png', 'main')">
                     Main
                 </div>
-                <div class="btn btn-default btn-lg" onclick="changeImage('../img/screeny-debugger.png')">
-                    Debugger
+                <div class="btn btn-default" onclick="changeImage('../img/screeny-debugger.png', 'debugger')">
+                    Debugger Integration
                 </div>
-                <div class="btn btn-default btn-lg" onclick="changeImage('../img/screeny-docs.png')">
-                    Documentation
+                <div class="btn btn-default" onclick="changeImage('../img/screeny-docs.png', 'docs')">
+                    Documentation Panel
                 </div>
-                <div class="btn btn-default btn-lg" onclick="changeImage('../img/screeny-profiler.png')">
+                <div class="btn btn-default" onclick="changeImage('../img/screeny-profiler.png', 'profiler')">
                     Profiler
                 </div>
-                <div class="btn btn-default btn-lg" onclick="changeImage('../img/screeny-terminal.png')">
+                <div class="btn btn-default" onclick="changeImage('../img/screeny-terminal.png', 'terminal')">
                     Terminal
                 </div>
             </ul>
+            <div class="screenshot interactive-image" data-img="main">
+                <img id="screeny" src="../img/screeny-main.png" alt="">
+            </div>
         </div>
 
 
@@ -275,6 +274,9 @@
 
 
 <script src="js/landing-page.js"></script>
+
+
+<script src="lib/interactive-image.js"></script>
 
 
 

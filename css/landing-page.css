@@ -26,25 +26,27 @@ h6 {
     font-weight: 400;
 }
 
-.screenselector {
+#screenselector {
     margin-top: 15px;
     position: relative;
-    filter: blur(5px);
     width: 75%;
     transition: filter 0.2s;
-}
-
-.screenselector:hover {
-    filter: none;
     z-index: 100;
+    filter: none;
 }
 
-.screenselector .buttons {
-    transition: opacity 0.2s;
+#screenselector.blurred {
+    filter: blur(5px);
+    z-index: 1;
+}
+
+
+#screenselector.blurred .buttons {
     opacity: 0;
 }
 
-.screenselector:hover .buttons {
+#screenselector .buttons {
+    transition: opacity 0.2s;
     opacity: 1;
 }
 
