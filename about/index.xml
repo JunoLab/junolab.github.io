@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Juno</title>
-    <link>https://pfitzseb.github.io/about/</link>
+    <link>http://junolab.org//about/</link>
     <description>Recent content in Abouts on Juno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jul 2015 14:08:29 +0200</lastBuildDate>
     
-	<atom:link href="https://pfitzseb.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://junolab.org//about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Juno is a powerful, free environment for the Julia language. </title>
-      <link>https://pfitzseb.github.io/about/about/</link>
+      <link>http://junolab.org//about/about/</link>
       <pubDate>Sat, 18 Jul 2015 14:08:29 +0200</pubDate>
       
-      <guid>https://pfitzseb.github.io/about/about/</guid>
+      <guid>http://junolab.org//about/about/</guid>
       <description>Read more about it below or get going straight away.</description>
     </item>
     
