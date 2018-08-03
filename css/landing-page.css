@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: #282c34;
 }
 
 body,
@@ -44,15 +45,24 @@ h6 {
     margin: 0.3em;
 }
 
+.navbar-default {
+    background-color: #21252b;
+}
+
+#services .row img {
+    box-shadow: 0 0 30px #21252b;
+}
+
 .btn {
-    padding-top: 0;
-    padding-bottom: 0;
+    /* padding-top: 0;
+    padding-bottom: 0; */
 }
 
 .logo {
     max-height: 8em;
     margin-left:auto;
     margin-right:0;
+    background-color: #ebebeb;
 }
 
 #image-overlay-container {
@@ -65,6 +75,7 @@ h6 {
 .screenshot {
     position: relative;
     margin-bottom: 1em;
+    box-shadow: 0 0 30px #21252b;
 }
 
 .screenshot img {
@@ -89,7 +100,7 @@ h6 {
 }
 
 .intro-message {
-    color: #dbdbdb;
+    color: #ebebeb;
     position: relative;
     margin-top: 1em;
     margin-bottom: 0.5em;
@@ -160,13 +171,13 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #22303f;
+    /* background-color: #21252b; */
 }
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #444;
-    border-bottom: 1px solid #444;
+    /* border-top: 1px solid #181a1f;
+    border-bottom: 1px solid #181a1f; */
 }
 
 .section-heading {
@@ -228,7 +239,7 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: #1a1a1a;
+    background-color: #21252b;
 }
 
 p.copyright {
