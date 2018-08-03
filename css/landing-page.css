@@ -11,7 +11,10 @@ html {
     background-color: #282c34;
 }
 
-body,
+body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
 h1,
 h2,
 h3,
@@ -43,14 +46,26 @@ h6 {
 
 .buttons {
     margin: 0.3em;
+    margin-bottom: 1em;
 }
 
 .navbar-default {
     background-color: #21252b;
+    font-weight: 700;
+}
+
+.navbar-right {
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-brand {
+    color: #df691a;
+    font-weight: 700;
+    font-size: 2em;
 }
 
 #services .row img {
-    box-shadow: 0 0 30px #21252b;
+    box-shadow: 0 0 30px #171a1e;
 }
 
 .btn {
@@ -75,7 +90,7 @@ h6 {
 .screenshot {
     position: relative;
     margin-bottom: 1em;
-    box-shadow: 0 0 30px #21252b;
+    box-shadow: 0 0 30px #171a1e;
 }
 
 .screenshot img {
