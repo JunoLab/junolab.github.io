@@ -66,7 +66,7 @@ h6 {
     font-size: 2em;
 }
 
-.navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     background-color: #21252b;
     color: #df691a;
 }
