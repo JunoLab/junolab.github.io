@@ -123,7 +123,8 @@ var items = {
     docs: [
         {
             title: "Documentation Pane",
-            description: "Easily search through package and Base documentation.",
+            description: "Easily search through package and Base documentation, "+
+                         "with full Markdown and LaTeX rendering.",
             position: {
                 left: 78,
                 top: 18
@@ -160,7 +161,7 @@ var items = {
     terminal: [
         {
             title: "Terminal Integration",
-            description: "Open a new terminal at a location of your choice.",
+            description: "Open a new terminal in a directory of your choice.",
             position: {
                 left: 50,
                 top: 85
