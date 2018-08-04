@@ -38,8 +38,8 @@ var items = {
             description: "The Workspace panel summarizes all variables defined in "+
                          "the currently active module.",
             position: {
-                left: 78,
-                top: 18
+                left: 84,
+                top: 20
             }
         },
         {
@@ -47,7 +47,7 @@ var items = {
             description: "Suggestions are created dynamically based on the currently loaded "+
                          "packages.",
             position: {
-                left: 28,
+                left: 35,
                 top: 50
             }
         },
@@ -55,8 +55,8 @@ var items = {
             title: "Inline Results",
             description: "Interactive inline results allow for notebook-like evaluation.",
             position: {
-                left: 30,
-                top: 27.5
+                left: 35,
+                top: 30
             }
         },
         {
@@ -80,8 +80,8 @@ var items = {
             title: "Progress Indicator",
             description: "Fully customizable progress bar.",
             position: {
-                left: 3,
-                top: 96
+                left: 10,
+                top: 92
             }
         },
     ],
@@ -107,8 +107,8 @@ var items = {
             title: "Inline Stepper",
             description: "Shows the call that will be evaluated next.",
             position: {
-                left: 45,
-                top: 39.5
+                left: 43,
+                top: 54
             }
         },
         {
@@ -133,7 +133,7 @@ var items = {
             title: "In-Editor Access to Documentation",
             description: "Show the docstring to the symbol under the cursor at a keystroke.",
             position: {
-                left: 24,
+                left: 35,
                 top: 37.5
             }
         },
@@ -145,7 +145,7 @@ var items = {
                          "portion of your code's runtime.",
             position: {
                 left: 40,
-                top: 25
+                top: 14
             }
         },
         {
