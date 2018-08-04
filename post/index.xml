@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Juno</title>
+    <link>http://junolab.org/post/</link>
+    <description>Recent content in Posts on Juno</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jul 2015 14:08:29 +0200</lastBuildDate>
+    
+	<atom:link href="http://junolab.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Walks like Python. Runs like C.</title>
+      <link>http://junolab.org/post/first/</link>
+      <pubDate>Sat, 18 Jul 2015 14:08:29 +0200</pubDate>
+      
+      <guid>http://junolab.org/post/first/</guid>
+      <description>Juno builds on Julia&amp;rsquo;s unique combination of ease-of-use and performance. Beginners and experts can build better software more quickly, and get to a result faster.</description>
+    </item>
+    
+    <item>
+      <title>Useable real-time feedback.</title>
+      <link>http://junolab.org/post/second/</link>
+      <pubDate>Sat, 18 Jul 2015 14:08:29 +0200</pubDate>
+      
+      <guid>http://junolab.org/post/second/</guid>
+      <description>With a completely live environment, Juno aims to take the frustration and guesswork out of programming and put the fun back in. A hybrid &amp;ldquo;canvas programming&amp;rdquo; style combines the exploratory power of a notebook with the productivity of an IDE.</description>
+    </item>
+    
+    <item>
+      <title>Great for power users, too.</title>
+      <link>http://junolab.org/post/third/</link>
+      <pubDate>Sat, 18 Jul 2015 14:08:29 +0200</pubDate>
+      
+      <guid>http://junolab.org/post/third/</guid>
+      <description>Juno is built on Atom, which means it&amp;rsquo;s a powerful editor as well as a pretty face. It&amp;rsquo;s customisable to your heart&amp;rsquo;s content (though the defaults are pretty good too) and has power features like multiple cursors, fuzzy file finding and Vim keybindings.</description>
+    </item>
+    
+  </channel>
+</rss>
