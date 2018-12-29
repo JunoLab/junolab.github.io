@@ -52,7 +52,6 @@ h6 {
 .navbar-default {
     background-color: #21252b;
     font-weight: 700;
-    box-shadow: 0 0 20px #171a1e;
 }
 
 .navbar-right {
@@ -60,15 +59,9 @@ h6 {
 }
 
 .navbar-default .navbar-brand {
-    background-color: #df691a;
-    color: #21252b;
+    color: #df691a;
     font-weight: 700;
     font-size: 2em;
-}
-
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    background-color: #21252b;
-    color: #df691a;
 }
 
 #services .row img {

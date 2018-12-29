@@ -38,8 +38,8 @@ var items = {
             description: "The Workspace panel summarizes all variables defined in "+
                          "the currently active module.",
             position: {
-                left: 84,
-                top: 20
+                left: 78,
+                top: 18
             }
         },
         {
@@ -47,7 +47,7 @@ var items = {
             description: "Suggestions are created dynamically based on the currently loaded "+
                          "packages.",
             position: {
-                left: 35,
+                left: 28,
                 top: 50
             }
         },
@@ -55,8 +55,8 @@ var items = {
             title: "Inline Results",
             description: "Interactive inline results allow for notebook-like evaluation.",
             position: {
-                left: 35,
-                top: 30
+                left: 30,
+                top: 27.5
             }
         },
         {
@@ -80,8 +80,8 @@ var items = {
             title: "Progress Indicator",
             description: "Fully customizable progress bar.",
             position: {
-                left: 10,
-                top: 92
+                left: 3,
+                top: 96
             }
         },
     ],
@@ -107,8 +107,8 @@ var items = {
             title: "Inline Stepper",
             description: "Shows the call that will be evaluated next.",
             position: {
-                left: 43,
-                top: 54
+                left: 45,
+                top: 39.5
             }
         },
         {
@@ -123,8 +123,7 @@ var items = {
     docs: [
         {
             title: "Documentation Pane",
-            description: "Easily search through package and Base documentation, "+
-                         "with full Markdown and LaTeX rendering.",
+            description: "Easily search through package and Base documentation.",
             position: {
                 left: 78,
                 top: 18
@@ -134,7 +133,7 @@ var items = {
             title: "In-Editor Access to Documentation",
             description: "Show the docstring to the symbol under the cursor at a keystroke.",
             position: {
-                left: 35,
+                left: 24,
                 top: 37.5
             }
         },
@@ -146,7 +145,7 @@ var items = {
                          "portion of your code's runtime.",
             position: {
                 left: 40,
-                top: 14
+                top: 25
             }
         },
         {
@@ -161,7 +160,7 @@ var items = {
     terminal: [
         {
             title: "Terminal Integration",
-            description: "Open a new terminal in a directory of your choice.",
+            description: "Open a new terminal at a location of your choice.",
             position: {
                 left: 50,
                 top: 85
