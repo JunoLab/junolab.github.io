@@ -20,14 +20,14 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('div.modal').on('show.bs.modal', function() {
-	var modal = this;
-	var hash = modal.id;
-	window.location.hash = hash;
-	window.onhashchange = function() {
-		if (!location.hash){
-			$(modal).modal('hide');
-		}
-	}
+    var modal = this;
+    var hash = modal.id;
+    window.location.hash = hash;
+    window.onhashchange = function() {
+    if (!location.hash){
+    $(modal).modal('hide');
+    }
+    }
 });
 
 // interactive-image setup
@@ -38,8 +38,8 @@ var items = {
             description: "The Workspace panel summarizes all variables defined in "+
                          "the currently active module.",
             position: {
-                left: 78,
-                top: 18
+                left: 85,
+                top: 80
             }
         },
         {
@@ -48,15 +48,15 @@ var items = {
                          "packages.",
             position: {
                 left: 28,
-                top: 50
+                top: 23
             }
         },
         {
             title: "Inline Results",
             description: "Interactive inline results allow for notebook-like evaluation.",
             position: {
-                left: 30,
-                top: 27.5
+                left: 34,
+                top: 60
             }
         },
         {
@@ -72,8 +72,8 @@ var items = {
             description: "In-editor display of plots, complete with history and "+
                          "interactivity.",
             position: {
-                left: 78,
-                top: 52
+                left: 65,
+                top: 35
             }
         },
         {
@@ -84,14 +84,30 @@ var items = {
                 top: 96
             }
         },
+        {
+            title: "Outline",
+            description: "Definitions and other interesting POIs in the file.",
+            position: {
+                left: 9,
+                top: 75
+            }
+        },
+        {
+            title: "Documentation Pane",
+            description: "Easily search through package and Base documentation.",
+            position: {
+                left: 85,
+                top: 18
+            }
+        },
     ],
     debugger: [
         {
             title: "Steppin' through code",
             description: "Easily step into/out of functions or to the next line/call.",
             position: {
-                left: 39,
-                top: 7
+                left: 85,
+                top: 6
             }
         },
         {
@@ -99,15 +115,15 @@ var items = {
             description: "The Workspace is automatically updated to show the values "+
                          "of variables in the current (function specific) local scope.",
             position: {
-                left: 78,
-                top: 18
+                left: 85,
+                top: 80
             }
         },
         {
             title: "Inline Stepper",
             description: "Shows the call that will be evaluated next.",
             position: {
-                left: 45,
+                left: 38,
                 top: 39.5
             }
         },
@@ -120,24 +136,6 @@ var items = {
             }
         },
     ],
-    docs: [
-        {
-            title: "Documentation Pane",
-            description: "Easily search through package and Base documentation.",
-            position: {
-                left: 78,
-                top: 18
-            }
-        },
-        {
-            title: "In-Editor Access to Documentation",
-            description: "Show the docstring to the symbol under the cursor at a keystroke.",
-            position: {
-                left: 24,
-                top: 37.5
-            }
-        },
-    ],
     profiler: [
         {
             title: "Inline display of relative runtime",
@@ -145,15 +143,15 @@ var items = {
                          "portion of your code's runtime.",
             position: {
                 left: 40,
-                top: 25
+                top: 15
             }
         },
         {
             title: "Interactive Profiler Flamechart",
             description: "Visualize relative runtime of called functions.",
             position: {
-                left: 78,
-                top: 52
+                left: 65,
+                top: 35
             }
         },
     ],
@@ -164,6 +162,33 @@ var items = {
             position: {
                 left: 50,
                 top: 85
+            }
+        },
+    ],
+    remote: [
+        {
+            title: "Remote File Editing",
+            description: "Fully featured SSH-based file editing based on ftp-remote-edit.",
+            position: {
+                left: 9,
+                top: 10
+            }
+        },
+        {
+            title: "Remote REPL",
+            description: "Start a remote Julia session. Optional tmux support.",
+            position: {
+                left: 40,
+                top: 85
+            }
+        },
+        {
+            title: "Feature-complete on remote machines",
+            description: "All Juno features are available on remote machines, too -- " +
+                         "including the debugger and plotting.",
+            position: {
+                left: 40,
+                top: 35
             }
         },
     ],
